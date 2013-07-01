@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F903510-C7F1-4BBB-B421-9384D3A529B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interface</RootNamespace>
+    <AssemblyName>Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_Boleta_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Boleta_Principal.Designer.cs">
+      <DependentUpon>Frm_Boleta_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Cambiar_Contraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Cambiar_Contraseña.Designer.cs">
+      <DependentUpon>Frm_Cambiar_Contraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Factura_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Factura_Principal.Designer.cs">
+      <DependentUpon>Frm_Factura_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Home_Omega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Home_Omega.Designer.cs">
+      <DependentUpon>Frm_Home_Omega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Ingreso_Producto_Almacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Ingreso_Producto_Almacen.Designer.cs">
+      <DependentUpon>Frm_Ingreso_Producto_Almacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Maestro_Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Maestro_Proveedores.Designer.cs">
+      <DependentUpon>Frm_Maestro_Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Mantenimiento_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Mantenimiento_Clientes.Designer.cs">
+      <DependentUpon>Frm_Mantenimiento_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Mantenimiento_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Mantenimiento_Productos.Designer.cs">
+      <DependentUpon>Frm_Mantenimiento_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Tabla_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Tabla_Clientes.Designer.cs">
+      <DependentUpon>Frm_Tabla_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Tabla_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Tabla_Productos.Designer.cs">
+      <DependentUpon>Frm_Tabla_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Tipo_Cancelacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Tipo_Cancelacion.Designer.cs">
+      <DependentUpon>Frm_Tipo_Cancelacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_Boleta_Principal.resx">
+      <DependentUpon>Frm_Boleta_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Cambiar_Contraseña.resx">
+      <DependentUpon>Frm_Cambiar_Contraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Factura_Principal.resx">
+      <DependentUpon>Frm_Factura_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Home_Omega.resx">
+      <DependentUpon>Frm_Home_Omega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Ingreso_Producto_Almacen.resx">
+      <DependentUpon>Frm_Ingreso_Producto_Almacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Maestro_Proveedores.resx">
+      <DependentUpon>Frm_Maestro_Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Mantenimiento_Clientes.resx">
+      <DependentUpon>Frm_Mantenimiento_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Mantenimiento_Productos.resx">
+      <DependentUpon>Frm_Mantenimiento_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Tabla_Clientes.resx">
+      <DependentUpon>Frm_Tabla_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Tabla_Productos.resx">
+      <DependentUpon>Frm_Tabla_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Tipo_Cancelacion.resx">
+      <DependentUpon>Frm_Tipo_Cancelacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataServices\DataServices.csproj">
+      <Project>{e6d7f0ae-2096-46c4-9429-a43a8b9598b5}</Project>
+      <Name>DataServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
