@@ -29,7 +29,7 @@ namespace Interface
                     this.Dispose();
                 }
                 else
-                    lbl_status1.Text = "No coinciden caracteres.";
+                    lbl_status1.Text = "No coinciden caracteres..";
             }
             else
             {
