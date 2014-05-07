@@ -41,7 +41,7 @@ namespace Interface
             cmbcliente.ValueMember = "CliCod";
             cmbcliente.AutoCompleteCustomSource = AutoComplete(dt2, "CliNom");
             cmbcliente.AutoCompleteMode = AutoCompleteMode.Suggest;
-            cmbcliente.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            cmbcliente.AutoCompleteSource = AutoCompleteSource.CustomSource; 
             DataGVProductos.Rows.Add();
             txttot_boleta.Text = "0";
             txtfecha.Text = DateTime.Now.Date.ToString();
