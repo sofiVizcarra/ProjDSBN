@@ -17,7 +17,7 @@ namespace DataServices
         DataTable dataTable = new DataTable();
         static MySqlDataAdapter DataAdapter;
         static int sw = 0; // variable login
-        static string IDUSU; // variale id del usuario
+        static string IDUSU; // variale id del usuario logear
         static string ConexionString = "Server=50.63.244.72;user=OmegaR;password=Honguito!1;database=OmegaR;port=3306;";
         //string ConexionString = "Server=localhost; Database=bdomegar ; Uid=root ; Pwd=admin;";
         public BDPrincipal(){}
