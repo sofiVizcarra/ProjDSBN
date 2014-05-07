@@ -15,11 +15,13 @@ namespace Core
             OPERACION = O;
             RESULTADO = R;
         }
+        //devuelve el dato
 
         public string getDATO()
         {
             return DATO;
         }
+        //retorna la operacion
         public string getOPERACION()
         {
             return OPERACION;
